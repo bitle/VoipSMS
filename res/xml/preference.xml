@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference android:title="Username"
+		android:key="username"
+		android:summary="Enter your username"
+		android:dialogMessage="Enter username"
+		android:dialogTitle="Username" />
+	<EditTextPreference android:title="Password"
+		android:key="password"
+		android:summary="Enter your password"
+		android:dialogMessage="Enter password"
+		android:password="true"
+		android:dialogTitle="Password" />
+	<EditTextPreference android:title="Phone number"
+		android:key="phoneNumberFrom"
+		android:inputType="phone"
+		android:dialogTitle="Your phone number"
+		android:dialogMessage="Phone number" />
+	<CheckBoxPreference android:title="Put message in thread"
+		android:summaryOn="Turn off adding messages to the Messages application threads"
+		android:summaryOff="Turn on adding message to the Messages application threads"
+		android:defaultValue="false"
+		android:key="putInThreads" />
+</PreferenceScreen>
